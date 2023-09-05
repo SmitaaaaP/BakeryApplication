@@ -1,0 +1,15 @@
+<div id="login-form">
+    <h2>You have to be and Admin to view all orders. Enter valid code to login</h2>
+    <br>
+    <div id="form">
+        <mat-form-field appearance="fill">
+            <mat-label>Enter Code</mat-label>
+            <input matInput type="password" name="adminPwd" [(ngModel)]="adminId">
+        </mat-form-field>
+        <br>
+        <button mat-raised-button color="primary" (click)="validateDetails()">Log In</button>
+        <br><br>
+        <h3>If you are a Customer, <a routerLink="/">Click here</a></h3>
+    </div>
+    
+</div>

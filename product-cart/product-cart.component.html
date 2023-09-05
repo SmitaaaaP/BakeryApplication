@@ -1,0 +1,85 @@
+<section id="product-content">
+    <div id="product-details">
+        <h1>{{product?.productName}}</h1>
+        <h3>
+            <mat-icon color="accent" *ngFor="let star of stars">star</mat-icon>
+        </h3>
+        <p>Category: {{product?.category}}</p>
+        <img src="../../assets/images/{{product?.image}}.jpg">
+        <p id="p1">Available weight: {{product?.availableWeight}}</p>
+        <p id="p2">Please Refrigerate after opened. Once Opened kindly consume within 4 days.</p>
+        <p id="p2">{{product?.description}}</p>
+    </div>
+
+    <form id="product-order" #productOrderForm="ngForm">
+        <h1>Purchase this item</h1>
+        <h2>Available at Rs. {{product?.productPrices}} for {{product?.availableWeight}}</h2>
+        <h3>To Place an Order, Fill your Details below : </h3>
+        
+        <mat-form-field appearance="fill">
+            <mat-label>Enter order date</mat-label>
+            <input matInput [matDatepicker]="picker" [min]="minDate" required name="dateOfOrder" #dateOfOrder="ngModel" [(ngModel)]="productOrder.dateOfOrder">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker ></mat-datepicker>
+            <mat-error *ngIf="dateOfOrder.errors?.['required']">
+                Date is required!
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Enter your Name</mat-label>
+            <input matInput type="text" required pattern="[a-zA-Z][a-zA-Z ]+" name="customerName" #customerName="ngModel" [(ngModel)]="productOrder.customerName">
+            <mat-error *ngIf="customerName.errors?.['required']">
+                Name is required!
+            </mat-error>
+            <mat-error *ngIf="customerName.errors?.['pattern']">
+                Name must contain only alphabets!
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Enter your Email Id</mat-label>
+            <input matInput type="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$" name="customerEmail" #customerEmail="ngModel" [(ngModel)]="productOrder.customerEmail">
+            <mat-error *ngIf="customerEmail.errors?.['required']">
+                email is required!
+            </mat-error>
+            <mat-error *ngIf="customerEmail.errors?.['pattern']">
+                Please enter valid email id!
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Enter your Contact No.</mat-label>
+            <input matInput type="text" required pattern="^[7-9][0-9]{9}$" minlength="10" name="customerPhone" #customerPhone="ngModel" [(ngModel)]="productOrder.customerPhone">
+            <mat-error *ngIf="customerPhone.errors?.['required']">
+                phone no. is required!
+            </mat-error>
+            <mat-error *ngIf="customerPhone.errors?.['pattern']">
+                enter valid 10 digit phone no.
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Enter your Address</mat-label>
+            <input matInput type="text" required name="customerAddress" #customerAddress="ngModel" [(ngModel)]="productOrder.customerAddress">
+            <mat-error *ngIf="customerAddress.errors?.['required']">
+                address is required!
+            </mat-error>
+        </mat-form-field>
+                                
+        <mat-form-field appearance="fill">
+            <mat-label>Enter Quantity</mat-label>
+            <mat-select id="quantity" name="quantity" required [(ngModel)]="productOrder.quantity">
+                <mat-option *ngFor="let qty of quantity" [value]="qty">{{qty}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+       
+        <mat-form-field appearance="fill">
+            <mat-label>Enter any message you want on your product</mat-label>
+            <input matInput type="text" name="messageOnProduct" [(ngModel)]="productOrder.messageOnProduct">
+        </mat-form-field>
+
+        <button mat-raised-button color="primary" [disabled]="!productOrderForm.valid" (click)="placeOrder()">Place Order</button>
+        <br>
+    </form>
+</section>

@@ -1,0 +1,52 @@
+{
+  "productOrders": [
+    {
+      "dateOfOrder": "6/29/2023",
+      "customerName": "Smita",
+      "customerEmail": "ss@gmail.com",
+      "customerPhone": "9823451273",
+      "customerAddress": "204, Olive Gardens, Sarjapur, Bangalore",
+      "quantity": 2,
+      "productName": "Classic Cheesecake",
+      "productPrice": 600,
+      "totalPrice": 1200,
+      "id": 1
+    },
+    {
+      "dateOfOrder": "6/29/2023",
+      "customerName": "Pooja Arora",
+      "customerEmail": "poojaa@gmail.com",
+      "customerPhone": "9823451273",
+      "customerAddress": "503, Purva Reviera Apartment",
+      "quantity": 2,
+      "productName": "Pumpkin Spice Cupcakes",
+      "productPrice": 450,
+      "totalPrice": 900,
+      "id": 2
+    },
+    {
+      "dateOfOrder": "6/30/2023",
+      "customerName": "Sameer Gupta",
+      "customerEmail": "sgupta@gmail.com",
+      "customerPhone": "9876543215",
+      "customerAddress": "702, Mantri Flora, Sarjapur, Bangalore ",
+      "quantity": 2,
+      "productName": "Butter Cookies",
+      "productPrice": 370,
+      "totalPrice": 740,
+      "id": 3
+    },
+    {
+      "dateOfOrder": "6/30/2023",
+      "customerName": "Rajat Desai",
+      "customerEmail": "rajatdesai123@gmail.com",
+      "customerPhone": "9845367234",
+      "customerAddress": "503, Purva Reviera Apartment",
+      "quantity": 3,
+      "productName": "Brownies- Assorted Flavours",
+      "productPrice": 400,
+      "totalPrice": 1200,
+      "id": 4
+    }
+  ]
+}

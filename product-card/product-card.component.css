@@ -1,0 +1,18 @@
+#product-card{
+    width: 27%;
+    height: 62%;
+    margin: 30px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35)0px 5px 15px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#product-title{
+    display: flex;
+    justify-content: space-between;
+}
+#cart-icon{
+    display: inline;
+    margin-left: 20px;
+}

@@ -1,0 +1,34 @@
+#product-content{
+    margin-left: 20px;
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+}
+#product-details{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+}
+#product-details img{
+    width: 90%;
+}
+#product-details p{
+    width: 70%;
+    margin-top: 15px;
+    text-align: justify;
+}
+#p1{
+    font-size: large;
+    font-weight: 600;
+}
+#p2{
+    font-size: medium;
+}
+#product-order{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}

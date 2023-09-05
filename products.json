@@ -1,0 +1,184 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "productName": "Berries Summer Cupcakes",
+      "image": "Berries Summer Cupcakes",
+      "category": "Cupcakes",
+      "description": "Freshly made Cupcakes infused with the flavour of Berries. Contains Egg. Allergen Information- contains Milk and other dairy products.",
+      "rating": 3,
+      "availableWeight": "1/2 kg - 6 pieces",
+      "productPrices": 450
+    },
+    {
+      "id": "2",
+      "productName": "Brownies- Assorted Flavours",
+      "image": "Brownies Different Flavor",
+      "category": "Brownies",
+      "description": "Freshly made Brownies in 6 assorted flavours. Contains Egg. Allergen Information- contains Milk and other dairy products.",
+      "rating": 4,
+      "availableWeight": "1/2 kg - 6 pieces",
+      "productPrices": 400
+    },
+    {
+      "id": "3",
+      "productName": "Cherry Jelly CheeseCake",
+      "image": "Cherry Jelly Cheesecake",
+      "category": "Cakes",
+      "description": "Freshly made CheeseCake with a generous topping of Cherry flavoured Jelly. Doesn't Contain Egg. Allergen Information- contains Milk and other dairy products.",
+      "rating": 4,
+      "availableWeight": "1 kg",
+      "productPrices": 600
+    },
+    {
+      "id": "4",
+      "productName": "Chocolate Blueberries Cake",
+      "image": "Chocolate Blueberries Cake",
+      "category": "Cakes",
+      "description": "Freshly made Chocolate Cake with fresh Blueberries as topping. Doesn't Contain Egg. Allergen Information- contains Milk and other dairy products.",
+      "rating": 4,
+      "availableWeight": "1 kg",
+      "productPrices": 600
+    },
+    {
+      "id": "5",
+      "productName": "Chocolate Bonbons",
+      "image": "Chocolate Bonbons",
+      "category": "Cakes",
+      "description": "Freshly made Chocolate Cake Pops . Contains Egg. Allergen Information- contains Milk and other dairy products.",
+      "rating": 4,
+      "availableWeight": "1 kg",
+      "productPrices": 600
+    },
+    {
+      "id": "6",
+      "productName": "Chocolate Cookies",
+      "image": "Chocolate Cookies",
+      "category": "Cookies",
+      "description": "Freshly made Chocolate cookies. Contains Egg. Allergen Information- contains Milk and other dairy products.",
+      "rating": 3,
+      "availableWeight": "1/2 kg - 12 pieces",
+      "productPrices": 370
+    },
+    {
+      "id": "7",
+      "productName": "Chocolate Cupcake",
+      "image": "Chocolate Cupcake",
+      "category": "Cupcakes",
+      "description": "Freshly made Chocolate Cupcakes. Contains Egg. Allergen Information- contains Milk and other dairy products.",
+      "rating": 3,
+      "availableWeight": "1/2 kg  - 6 pieces",
+      "productPrices": 450
+    },
+    {
+      "id": "8",
+      "productName": "Chocolate Summer Berries",
+      "image": "Chocolate Summer Berries",
+      "category": "Cakes",
+      "description": "Freshly made Chocolate Cake with fresh Summer Berries as topping. Doesn't Contain Egg. Allergen Information- contains Milk and other dairy products.",
+      "rating": 3,
+      "availableWeight": "1 kg",
+      "productPrices": 600
+    },
+    {
+      "id": "9",
+      "productName": "Classic Cheesecake",
+      "image": "Classic Cheesecake",
+      "category": "Cakes",
+      "description": "Freshly made Cheesecake. Doesn't Contain Egg. Allergen Information- contains Milk and other dairy products.",
+      "rating": 3,
+      "availableWeight": "1 kg",
+      "productPrices": 600
+    },
+    {
+      "id": "10",
+      "productName": "Cookies Cream Cake",
+      "image": "Cookies Cream Cake",
+      "category": "Cakes",
+      "description": "Freshly made Cake infused with the flavour of Oreo cookies and freshly whipped cream as topping. Contains Egg. Allergen Information- contains Milk and other dairy products.",
+      "rating": 5,
+      "availableWeight": "1 kg",
+      "productPrices": 600
+    },
+    {
+      "id": "11",
+      "productName": "Easter Cupcakes",
+      "image": "Easter Cupcakes",
+      "category": "Cupcakes",
+      "description": "Freshly made Easter Cupcakes that give you the feel of Easter with every bite. Contains Egg. Allergen Information- contains Milk and other dairy products.",
+      "rating": 4,
+      "availableWeight": "1/2 kg  - 6 pieces",
+      "productPrices": 450
+    },
+    {
+      "id": "12",
+      "productName": "Fruit Cake",
+      "image": "Fruit Cake",
+      "category": "Cakes",
+      "description": "Freshly made Cake infused with the flavour of Fresh seasonal fruits. Contains Egg. Allergen Information- contains Milk and other dairy products.",
+      "rating": 3,
+      "availableWeight": "1 kg",
+      "productPrices": 600
+    },
+    {
+      "id": "13",
+      "productName": "Isometric chocolate brownies",
+      "image": "Isometric chocolate brownies",
+      "category": "Brownies",
+      "description": "Freshly made gooey brownies rich in chocolate. Contains Egg. Allergen Information- contains Milk and other dairy products.",
+      "rating": 3,
+      "availableWeight": "1/2 kg  - 6 pieces",
+      "productPrices": 300
+    },
+    {
+      "id": "14",
+      "productName": "Butter Cookies",
+      "image": "Butter Cookies",
+      "category": "Cookies",
+      "description": "Freshly made cookies enriched with the goodness of Butter. Contains Egg. Allergen Information- contains Milk and other dairy products.",
+      "rating": 3,
+      "availableWeight": "1/2 kg - 12 pieces",
+      "productPrices": 370
+    },
+    {
+      "id": "15",
+      "productName": "Monster Theme Cake",
+      "image": "Monster Theme Cake",
+      "category": "Cakes",
+      "description": "Freshly made Cake with an interesting monster theme which your kids would love. Doesn't Contain Egg. Allergen Information- contains Milk and other dairy products.",
+      "rating": 4,
+      "availableWeight": "1 kg",
+      "productPrices": 600
+    },
+    {
+      "id": "16",
+      "productName": "Muffin Devil Horns",
+      "image": "Muffin Devil Horns",
+      "category": "Cupcakes",
+      "description": "These cupcakes are a perfect Halloween dessert with the devil's horn designed on top of it. Contains Egg. Allergen Information- contains Milk and other dairy products.",
+      "rating": 4,
+      "availableWeight": "1/2 kg  - 6 pieces",
+      "productPrices": 450
+    },
+    {
+      "id": "17",
+      "productName": "Muffin Ghost",
+      "image": "Muffin Ghost",
+      "category": "Cupcakes",
+      "description": "Another one of our cupcakes designed with a ghost face for a funky halloween party. Contains Egg. Allergen Information- contains Milk and other dairy products.",
+      "rating": 4,
+      "availableWeight": "1/2 kg  - 6 pieces",
+      "productPrices": 450
+    },
+    {
+      "id": "18",
+      "productName": "Pumpkin Spice Cupcakes",
+      "image": "Pumpkin Spice Cupcakes",
+      "category": "Cupcakes",
+      "description": "Freshly made Cupcakes infused with spices and the flavour of fresh Pumpkins. Doesn't Contain Egg. Allergen Information- contains Milk and other dairy products.",
+      "rating": 3,
+      "availableWeight": "1/2 kg  - 6 pieces",
+      "productPrices": 450
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#header-icons{
+    margin-right: 5%;
+}
+mat-icon{
+    padding-left: 30px;
+}

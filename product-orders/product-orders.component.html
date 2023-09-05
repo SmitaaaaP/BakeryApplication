@@ -1,0 +1,60 @@
+<mat-toolbar color="primary">
+    <mat-icon routerLink="/login">logout</mat-icon>
+</mat-toolbar>
+<section id="order-view">
+    <table mat-table [dataSource]="productOrders" id="order-view-table">
+        
+        <ng-container matColumnDef="id">
+            <th mat-header-cell *matHeaderCellDef>Sr No.</th>
+            <td mat-cell *matCellDef="let item"> {{item.id}}</td>
+        </ng-container>
+        
+        <ng-container matColumnDef="dateOfOrder">
+            <th mat-header-cell *matHeaderCellDef>Order Date</th>
+            <td mat-cell *matCellDef="let item"> {{item.dateOfOrder}}</td>
+        </ng-container>
+        
+        <ng-container matColumnDef="productName">
+            <th mat-header-cell *matHeaderCellDef>Product Name</th>
+            <td mat-cell *matCellDef="let item"> {{item.productName}}</td>
+        </ng-container>
+        
+        <ng-container matColumnDef="customerName">
+            <th mat-header-cell *matHeaderCellDef>Name</th>
+            <td mat-cell *matCellDef="let item"> {{item.customerName}}</td>
+        </ng-container>
+        
+        <ng-container matColumnDef="customerEmail">
+            <th mat-header-cell *matHeaderCellDef>Email</th>
+            <td mat-cell *matCellDef="let item"> {{item.customerEmail}}</td>
+        </ng-container>
+        
+        <ng-container matColumnDef="customerPhone">
+            <th mat-header-cell *matHeaderCellDef>Contact</th>
+            <td mat-cell *matCellDef="let item"> {{item.customerPhone}}</td>
+        </ng-container>
+        
+        <ng-container matColumnDef="customerAddress">
+            <th mat-header-cell *matHeaderCellDef>Address</th>
+            <td mat-cell *matCellDef="let item"> {{item.customerAddress}}</td>
+        </ng-container>
+        
+        <ng-container matColumnDef="quantity">
+            <th mat-header-cell *matHeaderCellDef>Quantity</th>
+            <td mat-cell *matCellDef="let item"> {{item.quantity}}</td>
+        </ng-container>
+        
+        <ng-container matColumnDef="messageOnProduct">
+            <th mat-header-cell *matHeaderCellDef>Message Req.</th>
+            <td mat-cell *matCellDef="let item"> {{item.messageOnProduct}}</td>
+        </ng-container> 
+        
+        <ng-container matColumnDef="totalPrice">
+            <th mat-header-cell *matHeaderCellDef>Amount to be Paid</th>
+            <td mat-cell *matCellDef="let item"> Rs. {{item.totalPrice}}</td>
+        </ng-container> 
+        
+        <tr mat-header-row *matHeaderRowDef="displayColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns : displayColumns;"></tr>
+    </table>
+</section>

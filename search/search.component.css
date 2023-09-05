@@ -1,0 +1,19 @@
+#search{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: lightgrey;
+    padding: 10px 10px;
+    
+}
+#searchbar{
+    margin-right: 10px;
+    padding: 10px;
+    background-color: lightcyan;
+    border: 2px solid lightgrey;
+}
+button{
+    font-weight: 600;
+    margin-right: 10px;
+    padding: 5px;
+}
